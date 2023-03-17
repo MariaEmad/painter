@@ -1,0 +1,43 @@
+ctx = canvas.getContext ("2d")
+returns a draw text in canvas
+==========================================================
+mousemove event means move of the mouse
+============================================================
+lineTo() method creates a new line .. ctx.lineTo(x-coordinate, y-coordinate)
+====================================================================================
+offsetX, offsetY returns X and y coordinate of the mouse pointer
+================================================================================
+beginPath() methed starts a new path to drawpoint
+=============================================================
+strokeRect() method draw a rectangle (no fill)
+its takes 
+strokeRect(x-coordinate,y-coordinate,width,height) for rectangle
+=====================================================================================
+getImageData(x-coordinate,y-coordinate,width,height) method retuerns an image data object that copies the pixel data
+==========================================================================
+putImageData(imageData, dx ,dy) mthod puts the image data back into the canvas
+===========================================================================
+to make full color rect its 
+fillRect(x-coordinate,y-coordinate,width,height) method
+====================================================
+arc() method draw a circle
+ctx.arc(x-coordinate,y-coordinate,raduis,start angel,end angel)
+======================================================================
+MAth.sqrt() method returns the squere root of a number
+================================================================
+moveTo() method moved the path to the specified point
+======================================
+closePath() close to lines like triangle
+====================================================
+input type range event is change
+===========================================
+The getComputedStyle() method is used to get all the computed CSS property and values of the specified element. 
+The use of computed style is displaying the element after stylings from multiple sources have been applied. 
+The getComputedStyle() method returns a CSSStyleDeclaration object. 
+
+Syntax:
+
+window.getComputedStyle(element, pseudoElement)
+============================================================
+strokeStyle() method retuns style of stroke
+fillStyle()
